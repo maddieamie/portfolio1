@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "name": "Maddie Amelia Lewis",
-      "titles": [ "Software Developer" ],
+      "titles": [ "Creative | Software Developer" ],
       "social": [
         {
           "name": "github",
@@ -11,10 +11,10 @@
         {
           "name": "linkedIn",
           "url": "https://www.linkedin.com/in/maddieamie",
-          "class": "fab fa-instagram"
+          "class": "fab fa-linkedin"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "myProfilePic.png"
     },
     "skills": {
       "icons": [

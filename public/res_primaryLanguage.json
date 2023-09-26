@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Ursula Lopez. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Code Fellows. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description_header": "Welcome to my portfolio!",
+      "description": "I am currently working on front and back end development, with an interest in accessible programming. My interest in coding was sparked by my love for mathematics and problem-solving. I am determined to create applications that are not only beautiful but also inclusive and accessible to all. My dream is to create mobile leisure games that make people happy, ones that anyone can play and feel successful. I believe my creativity as an artist and my expertise as a math teacher will blend seamlessly into a fulfilling career in software development.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,42 +11,23 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Animal Creature Quiz & Positivity Generator",
+        "startDate": "2023",
+        "description": "A vanilla javascript quiz designed to give the user a result after they hit submit. It determines what kind of artist creature you might be depending on your personality. The Positivity Generator randomly generates the affirmation, font style, and colors of the font and background. One can adjust each part to make it more appealing. This was my entry test-in project for Intermediate Software Development. ",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "public/images/portfolio/artist-creature/Artist Creature Quiz.png",
+          "public/images/portfolio/artist-creature/Artist Creature Result.png",
+          "public/images/portfolio/artist-creature/Postive Thoughts Generator.png"
         ],
-        "url": "",
+        "url": "https://maddieamie.github.io/artistcreature/html/index.quiz.html",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
           },
           {
             "class": "devicon-javascript-plain",
@@ -55,26 +36,46 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Gallery of Horns",
+        "startDate": "2023",
+        "description": "React-Bootstrap project for Intermediate Software Development. Users can look at various horned beasts, filter between the number of horns, and enlarge images in a modal.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "public/images/portfolio/gallery-of-horns/3hornedbeasts.png",
+          "public/images/portfolio/gallery-of-horns/hornedbeast1.png"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/maddieamie/gallery-of-horns",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-original",
+            "name": "React"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          }
+        ]
+      },
+      {
+        "title": "Terminal Projects",
+        "startDate": "2022",
+        "description": "My first projects in Javascript using the terminal. I've learned a lot since then!",
+        "images": [
+          "public/images/portfolio/terminal-projects/Dog Year Calculator.png",
+          "public/images/portfolio/terminal-projects/Magic 8 Ball Terminal.png"
+        ],
+        "url": "https://github.com/maddieamie",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           }
         ]
       }
