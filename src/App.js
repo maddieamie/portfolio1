@@ -1,3 +1,4 @@
+
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import $ from "jquery";
@@ -24,9 +25,9 @@ class App extends Component {
     var resumePath =
       document.documentElement.lang === window.$primaryLanguage
         ? `res_primaryLanguage.json`
-        : `res_primaryLanguage.json`;
+        : `res_secondaryLanguage.json`;
     this.loadResumeFromPath(resumePath);
-  } 
+  }
 
   swapCurrentlyActiveLanguage = (oppositeLangIconId) => {
     var pickedLangIconId =
@@ -45,6 +46,7 @@ class App extends Component {
     this.loadSharedData();
     this.applyPickedLanguage(
       window.$primaryLanguage,
+      window.$secondaryLanguageIconId
     );
   }
 
@@ -98,6 +100,7 @@ class App extends Component {
         </Routes>
         <Footer 
           sharedBasicInfo={this.state.sharedData.basic_info}
+          applyPickedLanguage={this.applyPickedLanguage} 
         />  
       </Router>
     );
