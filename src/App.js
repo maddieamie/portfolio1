@@ -28,7 +28,7 @@ class App extends Component {
     this.loadResumeFromPath(resumePath);
   } 
 
-  /*swapCurrentlyActiveLanguage = (oppositeLangIconId) => {
+  swapCurrentlyActiveLanguage = (oppositeLangIconId) => {
     var pickedLangIconId =
       oppositeLangIconId === window.$primaryLanguageIconId
         ? window.$secondaryLanguageIconId
@@ -39,7 +39,7 @@ class App extends Component {
     document
       .getElementById(pickedLangIconId)
       .setAttribute("filter", "brightness(40%)");
-  }*/
+  }
 
   componentDidMount = () => {
     this.loadSharedData();
