@@ -1,16 +1,16 @@
 {
     "basic_info": {
-      "name": "Ursula Lopez",
+      "name": "Maddie Amelia Lewis",
       "titles": [ "Software Developer" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/maddieamie",
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
+          "name": "linkedIn",
+          "url": "https://www.linkedin.com/in/maddieamie",
           "class": "fab fa-instagram"
         }
       ],
