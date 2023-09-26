@@ -18,7 +18,7 @@ class App extends Component {
     };
   }
 
-  applyPickedLanguage = (pickedLanguage, oppositeLangIconId) => {
+ /* applyPickedLanguage = (pickedLanguage, oppositeLangIconId) => {
     this.swapCurrentlyActiveLanguage(oppositeLangIconId);
     document.documentElement.lang = pickedLanguage;
     var resumePath =
@@ -26,9 +26,9 @@ class App extends Component {
         ? `res_primaryLanguage.json`
         : `res_secondaryLanguage.json`;
     this.loadResumeFromPath(resumePath);
-  }
+  } */
 
-  swapCurrentlyActiveLanguage = (oppositeLangIconId) => {
+  /*swapCurrentlyActiveLanguage = (oppositeLangIconId) => {
     var pickedLangIconId =
       oppositeLangIconId === window.$primaryLanguageIconId
         ? window.$secondaryLanguageIconId
@@ -39,14 +39,14 @@ class App extends Component {
     document
       .getElementById(pickedLangIconId)
       .setAttribute("filter", "brightness(40%)");
-  }
+  }*/
 
   componentDidMount = () => {
     this.loadSharedData();
-    this.applyPickedLanguage(
-      window.$primaryLanguage,
-      window.$secondaryLanguageIconId
-    );
+    //this.applyPickedLanguage(
+     // window.$primaryLanguage,
+      //window.$secondaryLanguageIconId
+    //);
   }
 
   loadResumeFromPath = (path) => {
