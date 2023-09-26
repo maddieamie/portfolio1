@@ -42,7 +42,7 @@ header {
 	text-align: center;
 	overflow: hidden;
 	//background-color: #F29F05;
-	background-image: "public/images/Bg.Angel'sTrumpet.png";
+	background-image: url("public/images/Bg.Angel'sTrumpet.png");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -442,4 +442,8 @@ footer a:focus {
 .social-links {
 	margin-top: 10px;
 	font-size: 22px;
+}
+
+.language {
+	display: none;
 }
