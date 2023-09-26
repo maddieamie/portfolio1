@@ -41,7 +41,8 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #F29F05;
+	//background-color: #F29F05;
+	background-image: "public/images/Bg.Angel'sTrumpet.png";
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -65,6 +66,7 @@ header .nav {
 .language-icon {
 	font-size: 50px;
 	cursor: pointer;
+	display: hidden;
 }
 
 .project-date {
