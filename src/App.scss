@@ -1,6 +1,9 @@
 @import '/src/scss/themes/theme-dark.scss';
 @import '/src/scss/themes/theme-light.scss';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
+//accent pink #D941BF, changed polaroid from white
+//accent violet #6E34BF
+
 
 html {
 	font-size: 62.5%;
@@ -38,7 +41,7 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-color: #F29F05;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -51,6 +54,7 @@ header .nav {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 5px;
+	color: #6E34BF;
 }
 
 .github-corner:hover .octo-arm {
@@ -120,7 +124,7 @@ header h1 {
 }
 
 #about {
-	background: #fff;
+	background: #F2F2F2;
 	overflow: hidden;
 }
 
@@ -188,7 +192,7 @@ header h1 {
 }
 
 .polaroid span {
-	background: #ffffff;
+	background: #D941BF;
 	display: inline-block;
 	margin: 55px 75px 30px;
 	padding: 15px 15px 30px;
@@ -218,7 +222,7 @@ header h1 {
 
 #preview {
 	width: 500px;
-	background-color: #ebeaf5;
+	background-color: #F2F2F2;
 	padding: 15px;
 	position: relative;
 	margin-bottom: 15%;
@@ -231,7 +235,7 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background: #F2F2F2;
 }
 
 .experience-icon {
@@ -245,7 +249,7 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #AE944F !important;
+	background-color: #D941BF !important;
 	color: white;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -353,7 +357,7 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: #F2F2F2;
 	padding-bottom: 5%;
 }
 
@@ -389,7 +393,7 @@ header h1 {
 }
 
 #skills {
-	background: #1F1F1F;
+	background: #1E2040;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
@@ -414,7 +418,7 @@ header h1 {
 }
 
 footer {
-	background: #1F1F1F;
+	background: #1E2040;
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;
