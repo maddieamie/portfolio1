@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
 //accent pink #D941BF, changed polaroid from white
 //accent violet #6E34BF
-
+// background-image: url('https://github.com/maddieamie/portfolio1/blob/main/public/images/portfolio/pics/Bg.AngelsTrumpet.png');
 
 html {
 	font-size: 62.5%;
@@ -11,6 +11,8 @@ html {
 	margin: 0;
 	padding: 0;
 }
+
+
 
 .aligner {
 	display: flex;
@@ -124,9 +126,8 @@ header h1 {
 }
 
 #about {
-	background: #F2F2F2;
 	overflow: hidden;
-	background-image: url("public/images/Bg.Angel'sTrumpet.png")
+	background-color: #F2F2F2;
 }
 
 #about h1 {
@@ -358,7 +359,6 @@ header h1 {
 }
 
 #portfolio {
-	background: #F2F2F2;
 	padding-bottom: 5%;
 }
 
@@ -409,6 +409,7 @@ header h1 {
 	letter-spacing: 3px;
 	color: #fff;
 	text-align: center;
+	
 }
 
 .skill-icon {
